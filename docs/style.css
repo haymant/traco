@@ -401,7 +401,7 @@ input:-webkit-autofill:focus {
 .screen-slider .item {
     background: url('images/mobile2.png') no-repeat scroll center center;
     background-size: 100%;
-    padding: 56px 22px;
+    padding: 60px 42px;
     display: inline-block;
     margin: auto;
 }
