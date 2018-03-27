@@ -407,7 +407,8 @@ input:-webkit-autofill:focus {
 }
 
 .screen-slider.owl-carousel .owl-item {
-    text-align: center
+    text-align: center;
+    animation-duration: 0.1s!important
 }
 
 .screen-slider .owl-controls {
