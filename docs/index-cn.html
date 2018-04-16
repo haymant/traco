@@ -467,13 +467,13 @@
                         </address>
                     </div>
                     <div class="col-xs-12 col-md-8">
-                        <form action="process.php" id="contact-form" method="post" class="contact-form">
+                        <form action="http://app.traco.co:4000/mail" id="contact-form" method="post" class="contact-form">
                             <div class="form-double">
-                                <input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">
-                                <input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">
+                                <input type="text" id="formName" name="formName" placeholder="Your name" class="form-control" required="required">
+                                <input type="email" id="formEmail" name="formEmail" class="form-control" placeholder="E-mail address" required="required">
                             </div>
-                            <input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">
-                            <textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
+                            <input type="text" id="formSubject" name="formSubject" class="form-control" placeholder="Message topic">
+                            <textarea name="message" id="formMessage" name="formMessage" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
                             <button type="sibmit" class="button">Submit</button>
                         </form>
                     </div>
