@@ -33,9 +33,9 @@ Ajax Contact Form
         $.ajax({
             type : 'POST',
             url  : 'http://app.traco.co:4000/mail',
-            data : formData,
-            dataType : 'json',
-            encode : true
+            data : JSON.stringify(formData),
+            contentType: 'application/json;charset=utf-8',
+            dataType : 'json'
         }).done(function (data) {
             // handle errors
             if (!data.success) {
